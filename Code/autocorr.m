@@ -1,5 +1,5 @@
-load('Siddhi_13_9.34_16(1).mat');
-tt=9.34;
+load('Siddhi_13_9.34_16(1).mat'); % This load statement varies depending on the dataset currently in use
+tt=9.34; % This is the time elapsed for the current dataset
 x=Acceleration.X;
 y=Acceleration.Y;
 z=Acceleration.Z;
