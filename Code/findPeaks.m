@@ -17,10 +17,11 @@ plot(t,Nmag);
 xlabel('Time (s)');
 ylabel('Acceleration (m/s^2)');
 
-minPeakHeight = std(Nmag); 
+minPeakHeight = std(Nmag); $ constant * std(Nmag) where constant is a hyperparameter we change in the ablation study
 
-[pks,locs] = findpeaks(Nmag,'MINPEAKHEIGHT',minPeakHeight,'MinPeakProminence',1.5);
+[pks,locs] = findpeaks(Nmag,'MINPEAKHEIGHT',minPeakHeight); $ [pks,locs] = findpeaks(Nmag,'MINPEAKHEIGHT',minPeakHeight, 'MinPeakProminence',1.5);
 
+$ MinPeakProminence and MinPeakheight are hyperparameters
 
 steps=numel(pks);
 
