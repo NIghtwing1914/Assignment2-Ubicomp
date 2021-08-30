@@ -12,7 +12,7 @@ fs=100;
 plot(lags/fs,autocor);
 xlabel('Lag')
 ylabel('Autocorrelation');
-axis([-21 21 -0.4 1.1])
+
 
 [pksh,lcsh] = findpeaks(autocor);
 short = mean(diff(lcsh))/fs;
