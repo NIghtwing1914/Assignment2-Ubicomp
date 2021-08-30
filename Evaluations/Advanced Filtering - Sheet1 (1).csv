@@ -1,0 +1,13 @@
+Participant Name,Age,Gender,Ground Truth,Time elapsed(seconds),Weak Baseline=Time elapsed*Average walking speed,Strong Baseline,Computed value of step count using Autocorrelation,Metric 1,Metric 2,Metric 3
+,,,,,,,,,,
+Somesh Pratap Singh,20,M,12,9.54,14.31,13,18.495,17.514225,30.195025,42.185025
+Siddhi Pravin Surawar,21,F,13,9.34,14.01,16,18.8911,23.82513721,8.35845921,34.70505921
+Xhitij Manish Choudhary,20,M,15,9.3,13.95,18,18.415,19.936225,0.172225,11.662225
+Hiral Sharma,19,F,12,6.45,9.675,13,12.7723,9.59326729,0.05184729,0.59644729
+Dhvani Manish Shah,19,F,12,6.75,10.125,13,13.3663,10.50602569,0.13417569,1.86677569
+,,,,,,,,,,
+,,RMSE wrt Ground Truth= 1.0,,,,,,4.034225581,2.789685724,4.266509866
+,,RMSE wrt Weak Baseline= 1.29,,,,,,,,
+,,RMSE wrt Strong Baseline = 2.52,,,RMSE wrt ground truth= 4.266,,,,,
+,,,,,RMSE wrt weak baseline= 4.034,,,,,
+,,,,,RMSE wrt strong baseline = 2.789,,,,,

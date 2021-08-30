@@ -1,0 +1,44 @@
+,,,,,,,,,,
+Feature/Hyperparameter: Minimum Peak Height above which values are filtered,,,,,,,,,,
+,,,,,,,,,,
+MinPeakHeight= standard deviation of normalized magnitude=std(Nmag),,,,,,,,,,
+,,,,,,,,,,
+Participant Name,Age,Gender,Ground Truth,Time elapsed(seconds),Weak Baseline=Time elapsed*Average walking speed,Strong Baseline,Computed value of step count,Metric 1,Metric 2,Metric 3
+,,,,,,,,,,
+Somesh Pratap Singh,20,M,12,10.06,15.09,13,12,9.5481,1,0
+Siddhi Pravin Surawar,21,F,13,9.34,14.01,16,13,1.0201,9,0
+Xhitij Manish Choudhary,20,M,15,8.72,13.08,17,15,3.6864,4,0
+Hiral Sharma,19,F,12,8.33,12.495,14,10,6.225025,16,4
+Dhvani Manish Shah,19,F,12,6.75,10.125,13,11,0.765625,4,1
+,,,,,,,,,,
+,,RMSE wrt Ground Truth= 1.00,,,,,,2.061322391,2.607680962,1
+,,RMSE wrt Weak Baseline= 2.03,,,,,,,,
+,,RMSE wrt Strong Baseline = 2.28,,,,,,,,
+,,,,,,,,,,
+MinPeakHeight= 1.5* std(Nmag),,,,,,,,,,
+,,,,,,,,,,
+Somesh Pratap Singh,20,M,12,10.06,15.09,13,12,9.5481,1,0
+Siddhi Pravin Surawar,21,F,13,9.34,14.01,16,13,1.0201,9,0
+Xhitij Manish Choudhary,20,M,15,9.3,13.95,14,13,0.9025,1,4
+Hiral Sharma,19,F,12,6.45,9.675,13,8,2.805625,25,16
+Dhvani Manish Shah,19,F,12,6.75,10.125,13,12,3.515625,1,0
+,,,,,,,,,,
+,,,,,,,,1.886369529,2.720294102,2
+,,,,,,,,,,
+,,RMSE wrt Ground Truth= 2,,,,,,,,
+,,RMSE wrt Weak Baseline= 1.88,,,,,,,,
+,,RMSE wrt Strong Baseline = 2.72,,,,,,,,
+,,,,,,,,,,
+MinPeakHeight = 0.5* std(Nmag),,,,,,,,,,
+,,,,,,,,,,
+Somesh Pratap Singh,20,M,12,10.06,15.09,13,13,4.3681,0,1
+Siddhi Pravin Surawar,21,F,13,9.34,14.01,16,14,0.0001,4,1
+Xhitij Manish Choudhary,20,M,15,9.3,13.95,14,15,1.1025,1,0
+Hiral Sharma,19,F,12,6.45,9.675,13,9,0.455625,16,9
+Dhvani Manish Shah,19,F,12,6.75,10.125,13,13,8.265625,0,1
+,,,,,,,,,,
+,,,,,,,,1.684752207,2.049390153,1.549193338
+,,,,,,,,,,
+,,RMSE wrt Ground Truth= 1.54,,,,,,,,
+,,RMSE wrt Weak Baseline= 1.68,,,,,,,,
+,,RMSE wrt Strong Baseline = 2.04,,,,,,,,
