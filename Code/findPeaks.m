@@ -1,4 +1,4 @@
-load('Somesh_12_8.50_15(5).mat');
+load('Somesh_12_8.50_15(5).mat'); %This line depends on the dataset currently in use
 x=Acceleration.X;
 y=Acceleration.Y;
 z=Acceleration.Z;
