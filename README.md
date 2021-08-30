@@ -5,7 +5,7 @@ Link to the paper : [A Step Counting Algorithm for Smartphone Users: Design and 
 
 | Experiment          |      Code         
 | -------------         |:-------------:
-| Experiments 1-5      | [findpeaks](..tree/main/Code/findpeaks.m) 
+| Experiments 1-5      | [findpeaks](/Code/findPeaks.m) 
 | Advanced Filtering     | [autocorr](/Code/autocorr.m)     
 |    
 
