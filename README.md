@@ -1,4 +1,4 @@
-# Assignment-1-Ubicomp
+# Assignment-2-Ubicomp
 This repo contains the code for assignment 2 of Ubiquitous Computing Fall 2021.
 
 Link to the paper : [A Step Counting Algorithm for Smartphone Users: Design and Implementation](https://ieeexplore.ieee.org/abstract/document/6974989) 
