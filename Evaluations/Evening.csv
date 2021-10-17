@@ -1,10 +1,10 @@
 Participant Name,Gender,Ground Truth(Reading from Pulse Oximeter),Calculated Pulse Rate(beats/minute),(Estimated Value-Actual Value)^2
 ,,,,
-Ayush Anand,M,91,97.89,47.4721
-Somesh Pratap Singh,M,84,82.11,3.5721
-Siddhi Pravin Surawar,F,85,88.42,11.6964
-Anushka Niti,F,93,101.05,64.8025
-Bhoomika Mandloi,F,85,96.00,121
-Revant Shah,M,83,84.00,1
+Ayush Anand,M,91,97.89,47.47
+Somesh Pratap Singh,M,84,82.11,3.57
+Siddhi Pravin Surawar,F,85,88.42,11.70
+Anushka Niti,F,93,101.05,64.80
+Bhoomika Mandloi,F,85,96.00,121.00
+Revant Shah,M,83,84.00,1.00
 ,,,,
-,,,RMSE wrt to Ground Truth,6.449070993
+,,,RMSE wrt to Ground Truth,6.45
