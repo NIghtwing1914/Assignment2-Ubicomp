@@ -75,7 +75,7 @@ plt.title("FFT of Normalized Signal")
 
 fs = 30.0       # sample rate, Hz
 cutoff = 2.7      # desired cutoff frequency of the filter in Hz, slightly higher than actual 2.5
-nyq = 0.5 * fs  # Nyquist Frequency
+nyq = 0.5 * fs  # Nyquist Frequency( converts a continuous function or signal into a discrete sequence )
 order = 2       
 
 #Filtering
