@@ -6,7 +6,7 @@ Link to the paper : [Seeing Red: PPG Biometrics Using Smartphone Cameras](https:
 | Figure              |      Title        
 | -------------       |:-------------:
 | Figure 1            | [Normalized signal values vs frames](/Figures/Figure_1.png) 
-| Figure 2            | [FFT of the normalized signal values](/Code/FFT.png)     
+| Figure 2            | [FFT of the normalized signal values](/Figures/FFT.png)     
 | Figure 3            | [Signal values after passing them through the low pass filter](/Figures/Low_Pass_Filter.png)
 | Figure 4            | [The normalized signal values with peaks marked in red](/Figures/Peaks.png)
 
